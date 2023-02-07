@@ -390,7 +390,6 @@ border: 1px solid #4D5AE5;
             resize: none;
             width: 360px;
                 height: 120px;
-                box-sizing: border-box;
                 padding: 8px 16px;
 }
 .input-p{
@@ -402,6 +401,12 @@ border: 1px solid #4D5AE5;
         height: 16px;
         border: 1.25px solid #2E2F42;
         border-radius: 2px;
+
+
+
+
+
+
 }
 
 .link-priv{
@@ -458,6 +463,64 @@ background-color: #404BBF;
 
 
 }
+
+.icon-chbox{
+display: inline-block;
+width: 16px;
+    height: 16px;
+    border: 1.25px solid #2E2F42;
+        border-radius: 2px;
+
+
+}
+
+
+
+
+.input-p:checked + .icon-chbox{
+background-color: #404BBF;
+background-image: url(../images/click.svg);
+background-size: contain;
+background-origin: border-box;
+border-color: transparent ;
+border: 1.25px solid #404BBF;
+    border-radius: 2px;
+
+
+}
+
+.click-label{
+display: inline-block;
+
+
+
+}
+.input-p{
+    width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+    
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
