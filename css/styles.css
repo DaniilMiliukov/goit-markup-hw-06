@@ -336,7 +336,7 @@ font-weight: 400;
         letter-spacing: 0.01em;
     
         color: #8E8F99;
-        position: relative;
+        
 }
 
 
@@ -362,8 +362,25 @@ border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     width: 360px;
         height: 40px;
+
+padding-left: 38px;
+
+
+        transition-property: border-color;
+            transition-duration: 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         
 }
+.form-input:hover ,
+.form-input:focus{
+border: 1px solid #4D5AE5;
+
+
+
+}
+
+
+
 
 .form-input-com{
     
@@ -386,17 +403,150 @@ border: 1px solid rgba(33, 33, 33, 0.2);
         border: 1.25px solid #2E2F42;
         border-radius: 2px;
 }
+
+.link-priv{
+font-weight: 400;
+    font-size: 12px;
+    line-height: 1.3;
+    letter-spacing: 0.04em;
+
+   
+    
+}
+.buttry{
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.but-bef{
+font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+padding: 16px 32px;
+    letter-spacing: 0.04em;
+
+    color: #FFFFFF;
+background: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+   border: none;
+
+
+   
+
+transition-property: color, box-shadow, background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    text-align: center;
+        display: inline-block;
+        cursor: pointer;
+        font-family: inherit;
+       width: 169px;
+height: 56px;
+
+}
+
+
+
+.but-bef:hover ,
+.but-bef:focus{
+
+background-color: #404BBF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+
+
+}
+
+
+
+
+.input-svg-bef{
+position: relative;
+
+
+}
+
+
+
 .svg-bef-pers{
     width: 18px;
     height: 18px;
     position: absolute;
-    top: 30px;
-    left: 19px;
+    top: 14px;
+    left: 16px;
+
+
+    transition-property: fill;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .form-input:focus ~ .svg-bef-pers{
     fill: #4D5AE5;
+
+
 }
+.form-input:hover ~ .svg-bef-pers {
+    fill: #4D5AE5;
+}
+.form-input:focus~.svg-bef-oth{
+    fill: #4D5AE5;
+
+
+}
+
+.form-input:hover~.svg-bef-oth {
+    fill: #4D5AE5;
+
+
+}
+
+
+.svg-bef-pers:hover ,
+.svg-bef-pers:focus {
+    fill: #4D5AE5;
+
+
+}
+
+
+.svg-bef-oth:hover ,
+.svg-bef-oth:focus {
+    fill: #4D5AE5;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+.svg-bef-oth{
+
+
+    width: 18px;
+        height: 24px;
+        position: absolute;
+        top: 8px;
+        left: 16px;
+    
+    
+        transition-property: fill;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+
+
+
 
 
 .b-bg-icon{
@@ -793,7 +943,7 @@ font-family: 'Raleway';
 
         height: 40px;
             width: 264px;
-            
+            background-color: transparent;
           
 }
 
