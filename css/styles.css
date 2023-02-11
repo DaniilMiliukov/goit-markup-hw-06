@@ -526,7 +526,7 @@ border: 1.25px solid #2E2F42;
 
 .check__input:focus+.check__box {
 background-color: #404BBF;
-    background-image: url(../images/click.svg);
+    background-image: url(../images/сlick.svg);
     background-size: contain;
     background-origin: border-box;
     border-color: transparent;
