@@ -1086,8 +1086,7 @@ margin-left: 16px;
 .button-tele{
     display: flex;
     position: relative;
-        right: 0;
-        top: 38px;
+
 padding: 8px 24px;
   
 font-weight: 500;
@@ -1101,6 +1100,12 @@ font-weight: 500;
    border: none;
     background-color: #4D5AE5;
     margin: 0;
+}
+
+.label-foot-mail{
+    display: flex;
+    gap:24px;
+    
 }
 
 
